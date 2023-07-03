@@ -8,7 +8,7 @@ const TelaTransferencia = ({ navigation }) => {
 
   const handleTransferencia = () => {
     // Verifica se a conta de destino é válida
-    if (contaDestino !== '575') {
+    if (contaDestino !== '619') {
       setMensagem('Conta de destino inválida. Verifique e tente novamente.');
       return;
     }
