@@ -30,7 +30,7 @@ const TelaTransferencia = ({ navigation }) => {
     const saldoDisponivel = 2000.00; // Substitua pelo saldo real do usuário
     const valorTransferenciaFloat = parseFloat(valorTransferencia);
     if (valorTransferenciaFloat > saldoDisponivel) {
-      setMensagem('Saldo insuficiente para a realização datransferência.');
+      setMensagem('Saldo insuficiente para a realização da transferência.');
       return;
     }
 
