@@ -28,7 +28,7 @@ const TelaLogin = () => {
 
     <View style={estilos.Container}> 
     <Text style={estilos.Texto}> Thiago 20222017905 e Juan Pablo  </Text>
-    <Image style={estilos.Image} source={require('./Logo/lo.png')}/>
+    <Image style={estilos.Image} source={require('./'logo.jpg)}/>
     <Text style={estilos.Texto}> Seu dinheiro rendendo muito!</Text>
     
     <TextInput
