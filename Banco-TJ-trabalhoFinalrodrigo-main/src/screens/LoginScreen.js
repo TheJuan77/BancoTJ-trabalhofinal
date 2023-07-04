@@ -8,7 +8,7 @@ const TelaLogin = () => {
   const [password, setPassword] = useState('');
 
   const handleLogin = () => {
-    if (conta === '20222017905' && password === 'thiago') {
+    if (conta === '20222017825' && password === 'Juan Pablo') {
         
         const loginData = { conta, password };
         navigation.navigate('Home', { loginData });
@@ -27,7 +27,7 @@ const TelaLogin = () => {
   return (
 
     <View style={estilos.Container}> 
-    <Text style={estilos.Texto}> Thiago 20222017905 e Juan Pablo  </Text>
+    <Text style={estilos.Texto}> Thiago e Juan Pablo 20222017825   </Text>
     <Image style={estilos.Image} source={require('./'logo.jpg)}/>
     <Text style={estilos.Texto}> Seu dinheiro rendendo muito!</Text>
     
